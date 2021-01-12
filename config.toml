@@ -1,0 +1,250 @@
+# Page settings
+
+baseURL = "https://a3ventures.dev/"
+languageCode = "en"
+title = "Alexander Ackerman Resume"
+theme = "DevResume"
+googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
+
+
+[params]
+    author = "Alexander Ackerman"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689" 
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Alexander Ackerman"
+        tagline = "Entrepreneurial Software Engineer"
+        avatar = "headshot.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Vancouver, BC, Canada"
+        citizenship = "Dual Citizen Canada/USA"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+17789037178"
+        text = "+1 778 903 7178"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:alex@a3ventures.dev"
+        text = "alex@a3ventures.dev"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://a3ventures.dev"
+        text = "a3ventures.dev"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Typescript"
+        [[params.skills.list.items]]
+        details = "JavaScript/Node.js/Vue/React"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Java including Javac tools"
+        [[params.skills.list.items]]
+        details = "C and C++ from school"
+        [[params.skills.list.items]]
+        details = "RFC 2119 compliant design & documentation"
+
+        [[params.skills.list]]
+        title = "Dev Ops Tools"
+        [[params.skills.list.items]]
+        details = "Docker"
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        [[params.skills.list.items]]
+        details = "Helm 2 & 3"
+        [[params.skills.list.items]]
+        details = "Sensu Core"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor of Computer Science"
+        university = "University of British Columbia"
+        dates = "2018 - 2021"
+        [[params.education.list]]
+        degree = "BA Hons Economics & Finance"
+        university = "McGill University"
+        dates = "2010 - 2014"
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Jim McCollum Award for Innovation"
+        body = "An award given by the Soaring Association of Canada recognizing my efforts to promote soaring among youth and younger adults, including fundraising efforts for the non-profit Youth Flight Canada"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "French"
+        level = "Conversational"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Basic"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Soaring/Flying Sailplanes"
+        [[params.interests.list]]
+        name = "Skiing"
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Cooking"
+        [[params.interests.list]]
+        name = "Guitar & singing"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+    [params.summary]
+        enable = true
+        text = "I love studying complex systems and trying to understand how they work, be they markets, cloud native technologies, or weather systems (just for fun). I am currently seeking opportunties to learn and tackle fresh problems every day."
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Co-Op Intern"
+        dates = "2020"
+        company = "[Demonware](https://demonware.net/)"
+        [[params.experience.list.items]]
+        details = "Designed, built and deployed back-end micro-services to Kubernetes from end-to-end"
+        [[params.experience.list.items]]
+        details = "Gathered internal customer feedback and requirements to design new tools and features"
+        [[params.experience.list.items]]
+        details = "Developed and released an upstream Helm chart for a sidecar monitoring service for use by internal customers"
+        [[params.experience.list.items]]
+        details = "Completed a data analytics project for the Capacity Planning team which used Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurent users"
+
+        [[params.experience.list]]
+        title = "Team Lead"
+        dates = "2018 - 2019"
+        company = "[Venzee](https://www.venzee.com/)"
+        [[params.experience.list.items]]
+        details = "5th person to join the sales team, spent 4 months working as a sales dev rep (SDR) and training newer hires to build team to over 20"
+        [[params.experience.list.items]]
+        details = "Independently built a database of 50k cold-leads via Python-enabled web scrapes"
+        [[params.experience.list.items]]
+        details = "Participated in AGILE rituals and wrote user stories for developers based on customer feedback"
+
+        [[params.experience.list]]
+        title = "Founder"
+        dates = "2016 - Present"
+        company = "[A3 Ventures](https://a3ventures.dev/)"
+        [[params.experience.list.items]]
+        details = "A3 Ventures is my personal tradename/brand (my initials are AAA) under which I have done some consulting work for a few clients"
+        [[params.experience.list.items]]
+        details = "Services include investment research (loose focus on the life science industry) and market research (lead discovery)"
+        
+
+        [[params.experience.list]]
+        title = "Project Director/Analyst"
+        dates = "2014 - 2017"
+        company = "[Focus Reports](https://www.linkedin.com/company/focusreports/about/)"
+        [[params.experience.list.items]]
+        details = "Wrote content for 10+ country specific editions of the [Healthcare & Life Science Review](https://pharmaboardroom.com/country-reports/), published on [PharmaBoardroom.com](https://pharmaboardroom.com/)"
+        [[params.experience.list.items]]
+        details = "Worked on and led small two and three person teams in the field to conduct interviews and secure advertising contracts"
+        [[params.experience.list.items]]
+        details = "Carried out extensive research on healthcare policies, biotech technology platforms, and pharma company business models in preparation for interviews with C-suite executives and to write published content"
+        [[params.experience.list.items]]
+        details = "Was responsible for revenue generation via advertising sales across the full sales funnel from lead generation via cold calls to closing. Best year was 2016 with over USD 500k in sales"
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Tic Tac Toe Neural Network"
+        meta = "Side Project"
+        tagline = "In progress. A simple neural network that can be trained and run in browser, which can identify the winner of a tick tac toe game, or that the game is drawn."
+
+        [[params.projects.list]]
+        title = "[Solar System Runtime Analysis](https://java-dragon-slaying.github.io/SolarSystemRuntimeAnalysis/)"
+        meta = "Class Project"
+        tagline = "As my portion of a group project, I wrote a [Javac compiler plugin](https://github.com/Java-Dragon-Slaying/SolarSystemRuntimeAnalysis/blob/main/src/main/java/JavacPlugin.java) that generates and inserts new JCTree nodes into the Abstract Syntax Tree of the code being compiled, such that information about the runtime state is logged when the compiled program is executed."
+
+        [[params.projects.list]]
+        title = "[EcoReview Chrome Extension](https://github.com/A3Ackerman/EcoReviewPlugin)"
+        meta = "Side Project"
+        tagline = "A React JS popup extension for crowdsourcing independent reviews of potentially “Greenwashed” products. Backend consisted of a Python Flask webserver with MongoDB docker container."
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/a3ackerman"
+        title = "A3Ackerman"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/alexander-ackerman-8419464b"
+        title = "Alexander Ackerman"
+        #[[params.social.list]]
+        #icon = "fab fa-twitter-square"
+        #url = "//twitter.com/username"
+        #title = "@username"
+
+
+
+
+

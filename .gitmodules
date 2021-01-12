@@ -1,0 +1,3 @@
+[submodule "themes/DevResume"]
+	path = themes/DevResume
+	url = https://github.com/A3Ackerman/hugo-devresume-theme.git
