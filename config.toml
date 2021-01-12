@@ -12,7 +12,7 @@ publishDir = "docs"
     author = "Alexander Ackerman"
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
-    primaryColor = "#54B689" 
+    primaryColor = "#90cc1a" 
     textPrimaryColor = "#292929"
 
 
@@ -159,7 +159,7 @@ publishDir = "docs"
         dates = "2018 - 2019"
         company = "[Venzee](https://www.venzee.com/)"
         [[params.experience.list.items]]
-        details = "5th person to join the sales team, spent 4 months working as a sales dev rep (SDR) and training newer hires to build team to over 20"
+        details = "Led a team of 8 Sales Dev Reps, including supporting their training and skill development"
         [[params.experience.list.items]]
         details = "Independently built a database of 50k cold-leads via Python-enabled web scrapes"
         [[params.experience.list.items]]
@@ -172,7 +172,7 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "A3 Ventures is my personal tradename/brand (my initials are AAA) under which I have done some consulting work for a few clients"
         [[params.experience.list.items]]
-        details = "Services include investment research (loose focus on the life science industry) and market research (lead discovery)"
+        details = "Services include investment research (loose focus on the life science industry) and building a B2B lead generation database for a small industrial business"
         
 
         [[params.experience.list]]
@@ -194,11 +194,6 @@ publishDir = "docs"
         enable = true
 
         [[params.projects.list]]
-        title = "Tic Tac Toe Neural Network"
-        meta = "Side Project"
-        tagline = "In progress. A simple neural network that can be trained and run in browser, which can identify the winner of a tick tac toe game, or that the game is drawn."
-
-        [[params.projects.list]]
         title = "[Solar System Runtime Analysis](https://java-dragon-slaying.github.io/SolarSystemRuntimeAnalysis/)"
         meta = "Class Project"
         tagline = "As my portion of a group project, I wrote a [Javac compiler plugin](https://github.com/Java-Dragon-Slaying/SolarSystemRuntimeAnalysis/blob/main/src/main/java/JavacPlugin.java) that generates and inserts new JCTree nodes into the Abstract Syntax Tree of the code being compiled, such that information about the runtime state is logged when the compiled program is executed."
@@ -207,6 +202,11 @@ publishDir = "docs"
         title = "[EcoReview Chrome Extension](https://github.com/A3Ackerman/EcoReviewPlugin)"
         meta = "Side Project"
         tagline = "A React JS popup extension for crowdsourcing independent reviews of potentially “Greenwashed” products. Backend consisted of a Python Flask webserver with MongoDB docker container."
+
+        [[params.projects.list]]
+        title = "Tic Tac Toe Neural Network"
+        meta = "Side Project"
+        tagline = "In progress. A simple neural network that can be trained and run in browser, which can identify the winner of a tick tac toe game, or that the game is drawn."
 
 
 
