@@ -152,7 +152,7 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Developed and released an upstream Helm chart for a sidecar monitoring service for use by internal customers"
         [[params.experience.list.items]]
-        details = "Completed a data analytics project for the Capacity Planning team which used Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurent users"
+        details = "Completed a data analytics project for the Capacity Planning team which used Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurrent users"
 
         [[params.experience.list]]
         title = "Team Lead"
