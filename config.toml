@@ -46,15 +46,17 @@ publishDir = "docs"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Languages & Libraries"
         [[params.skills.list.items]]
         details = "Python"
         [[params.skills.list.items]]
         details = "Typescript"
         [[params.skills.list.items]]
-        details = "JavaScript/Node.js/Vue/React"
+        details = "JavaScript, Node.js, Vue, React"
+         [[params.skills.list.items]]
+        details = "Bash"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "PostgreSQL, MySQL"
         [[params.skills.list.items]]
         details = "Java including Javac tools"
         [[params.skills.list.items]]
@@ -70,6 +72,8 @@ publishDir = "docs"
         details = "Kubernetes"
         [[params.skills.list.items]]
         details = "Helm 2 & 3"
+        [[params.skills.list.items]]
+        details = "Open Nebula"
         [[params.skills.list.items]]
         details = "Sensu Core"
 
@@ -146,13 +150,13 @@ publishDir = "docs"
         dates = "2020"
         company = "[Demonware](https://demonware.net/)"
         [[params.experience.list.items]]
-        details = "Designed, built and deployed back-end micro-services to Kubernetes from end-to-end"
+        details = "Designed, built and deployed back-end Python micro-services to Kubernetes from end-to-end"
         [[params.experience.list.items]]
         details = "Gathered internal customer feedback and requirements to design new tools and features"
         [[params.experience.list.items]]
         details = "Developed and released an upstream Helm chart for a sidecar monitoring service for use by internal customers"
         [[params.experience.list.items]]
-        details = "Completed a data analytics project for the Capacity Planning team which used Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurrent users"
+        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurrent users. Implemented in using Pandas, NumPy and PyRserve."
 
         [[params.experience.list]]
         title = "Team Lead"
@@ -161,7 +165,7 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Led a team of 8 Sales Dev Reps, including supporting their training and skill development"
         [[params.experience.list.items]]
-        details = "Independently built a database of 50k cold-leads via Python-enabled web scrapes"
+        details = "Wrote Python scripts using BeautifulSoup used to collect, process, and score 50k leads leading to a measurable improvement in sales funnel metrics"
         [[params.experience.list.items]]
         details = "Participated in AGILE rituals and wrote user stories for developers based on customer feedback"
 
@@ -204,7 +208,7 @@ publishDir = "docs"
         tagline = "A React JS popup extension for crowdsourcing independent reviews of potentially “Greenwashed” products. Backend consisted of a Python Flask webserver with MongoDB docker container."
 
         [[params.projects.list]]
-        title = "Tic Tac Toe Neural Network"
+        title = "[Tic Tac Toe Neural Network](https://github.com/A3Ackerman/TicTacToeNeuralNet)"
         meta = "Side Project"
         tagline = "In progress. A simple neural network that can be trained and run in browser, which can identify the winner of a tick tac toe game, or that the game is drawn."
 
