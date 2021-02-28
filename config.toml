@@ -141,8 +141,8 @@ publishDir = "docs"
         enable = true
 
         [[params.experience.list]]
-        title = "Co-Op Intern"
-        dates = "2020"
+        title = "Software Engineering Intern"
+        dates = "Jan - Sept 2020"
         company = "[Demonware (Activision Blizzard)](https://demonware.net/)"
         [[params.experience.list.items]]
         details = "Designed, built and deployed back-end Python micro-services to Kubernetes from end-to-end"
@@ -151,16 +151,18 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Developed and released an upstream Helm chart for a sidecar monitoring service for use by internal customers"
         [[params.experience.list.items]]
-        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurrent users. Implemented in using Pandas, NumPy and PyRserve."
+        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurrent users. Implemented in Python 2 using Pandas, NumPy and PyRserve."
 
-        [[params.experience.list]]
-        title = "Team Lead"
-        dates = "2018 - 2019"
+        [[params.experience.list]] 
+        title = "Lead SDR & Digital Marketing Specialist"
+        dates = "Feb 2018 - Jan 2019"
         company = "[Venzee](https://www.venzee.com/)"
         [[params.experience.list.items]]
         details = "Led a team of 8 Sales Dev Reps, including supporting their training and skill development"
         [[params.experience.list.items]]
         details = "Wrote Python scripts using BeautifulSoup used to collect, process, and score 50k leads leading to a measurable improvement in sales funnel metrics"
+        [[params.experience.list.items]]
+        details = "Planned, researched, and executed a content marketing campaign, reporting the Director of Marketing/Growth Hacker."
         [[params.experience.list.items]]
         details = "Participated in AGILE rituals and wrote user stories for developers based on customer feedback"
 
@@ -200,13 +202,12 @@ publishDir = "docs"
         [[params.projects.list]]
         title = "[EcoReview Chrome Extension](https://github.com/A3Ackerman/EcoReviewPlugin)"
         meta = "Side Project"
-        tagline = "A React JS popup extension for crowdsourcing independent reviews of potentially “Greenwashed” products. Backend consisted of a Python Flask webserver with MongoDB docker container."
+        tagline = "A Google Chrome extension for crowdsourcing independent reviews of potentially “Greenwashed” products. The React front end utilizes the Google Chrome API to obtain access to variables in user's currently active tab. Backend consisted of a Python Flask webserver with MongoDB docker container."
 
         [[params.projects.list]]
         title = "[Solar System Runtime Analysis](https://java-dragon-slaying.github.io/SolarSystemRuntimeAnalysis/)"
         meta = "Class Project"
         tagline = "I wrote a [Javac compiler plugin](https://github.com/Java-Dragon-Slaying/SolarSystemRuntimeAnalysis/blob/main/src/main/java/JavacPlugin.java) that generates and inserts new JCTree nodes into the Abstract Syntax Tree of the code being compiled, such that information about the runtime state is logged when the compiled program is executed."
-
 
 
     [params.information]
