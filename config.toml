@@ -90,18 +90,19 @@ publishDir = "docs"
 
         [[params.education.list]]
         degree = "Bachelor of Computer Science"
-        university = "University of British Columbia | 2018 - 2021"
+        university = "University of British Columbia" # | 2018 - 2021"
         dates = "2018 - 2021"
+        gpa = "GPA: A"
         [[params.education.list.items]]
         details = "Graduating May 2021, GPA: A"
         [[params.education.list.items]]
-        details = "Specialization: statistics and data analytics"
+        details = "Specialization: statistics and data science"
         [[params.education.list.items]]
-        details = "Teaching Assistant: CPSC110, and BCS Tutor (hosted office hours for CPSC213 and CPSC221)"
+        details = "Teaching Assistant for Computer Science 100 and 200 level courses"
 
         [[params.education.list]]
-        degree = "BA Hons Economics & Finance"
-        university = "McGill University | 2010 - 2014"
+        degree = "BA Honours Economics & Finance"
+        university = "McGill University" # | 2010 - 2014"
         dates = "2010 - 2014"
 
 
@@ -121,7 +122,7 @@ publishDir = "docs"
 
 
     [params.languages]
-        enable = false
+        enable = true
 
         [[params.languages.list]]
         name = "English"
@@ -152,7 +153,7 @@ publishDir = "docs"
 
 
     [params.summary]
-        enable = false
+        enable = true
         text = 'I love studying complex systems and trying to understand how they work, be they markets, cloud native technologies, or weather systems (just for fun). I am currently seeking opportunties to learn and tackle fresh problems.'
         work_status = true
 
@@ -164,26 +165,28 @@ publishDir = "docs"
         dates = "2020"
         company = "[Demonware (Activision Blizzard)](https://demonware.net/)"
         [[params.experience.list.items]]
-        details = "Designed, built and deployed back-end Python micro-services to Kubernetes from end-to-end"
+        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes needed to serve Call of Duty Warzone's 50 million+ players. Estimates led to reducing CPU resource allocations, creating savings of approx $100k"
         [[params.experience.list.items]]
-        details = "Gathered internal customer feedback and requirements to design new tools and features"
+        details = "Also worked with the monitoring stack, which monitored all Demonware services for proper functioning, and would Slack and/or page the right engineers if their service malfunctioned"
         [[params.experience.list.items]]
-        details = "Developed and released an upstream Helm chart (a GoLang Template) for a sidecar monitoring service for use by internal customers"
+        details = "Designed, built and deployed a back-end Python micro-services to Kubernetes from end-to-end which was used to test that new checks/alerts were configured correctly and properly routed by the monitoring stack"
         [[params.experience.list.items]]
-        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes to reliably and efficiently serve Call of Duty Warzone's 50 million+ players. Implemented in Python 2 using Pandas, NumPy and PyRserve."
-
+        details = "Developed and released an upstream Helm chart (a GoLang Template) which allowed internal customers to easily add a monitoring agent to their Kubernetes deployments, saving at least 2-3 hours of developer work for deploying any new service"
+       
         [[params.experience.list]]
         title = "Lead SDR & Digital Marketing Specialist"
         dates = "2018 - 2019"
         company = "[Venzee](https://www.venzee.com/)"
         [[params.experience.list.items]]
-        details = "Led a team of 8 Sales Dev Reps, including supporting their training and skill development"
+        details = "Venzee is a SaaS startup working to automate the E-commerce product data supply chain"
         [[params.experience.list.items]]
-        details = "Wrote Python scripts using BeautifulSoup used to collect, process, and score 50k leads leading to a measurable improvement in sales funnel metrics"
+        details = "Led a team of 8 Sales Dev Reps, including supporting their sales training and skill development"
         [[params.experience.list.items]]
-        details = "Planned, researched, and executed a content marketing campaign, reporting the Director of Marketing/Growth Hacker"
+        details = "Wrote Python scripts using BeautifulSoup used to collect, process, and score 50k leads leading to a 5% improvement in our demo-booking rate"
         [[params.experience.list.items]]
-        details = "Participated in AGILE rituals and wrote user stories for developers based on customer feedback"
+        details = "Planned and executed several projects to clean and organize our sales and marketing data from Hubspot and other sources"
+        [[params.experience.list.items]]
+        details = "Ran a content marketing campaign to improve Venzee's SEO for high value keywords"
 
         # [[params.experience.list]]
         # title = "Founder"
@@ -202,9 +205,9 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Wrote content for 10+ country specific editions of the [Healthcare & Life Science Review](https://pharmaboardroom.com/country-reports/), published on [PharmaBoardroom.com](https://pharmaboardroom.com/)"
         [[params.experience.list.items]]
-        details = "Worked on and led small two and three person teams in the field to conduct interviews and secure advertising contracts"
+        details = "Worked on and led small two and three person teams to conduct interviews and sell advertising"
         [[params.experience.list.items]]
-        details = "Carried out extensive research on healthcare policies, biotech technology platforms, and pharma company business models in preparation for interviews with C-suite executives and to write published content"
+        details = "Researched healthcare policies, biotech technology platforms, and pharma company business models in preparation for interviews with C-suite executives and to write published content"
         [[params.experience.list.items]]
         details = "Was responsible for revenue generation via advertising sales across the full sales funnel from lead generation via cold calls to closing. Best year was 2016 with over USD 500k in sales"
 
@@ -215,19 +218,28 @@ publishDir = "docs"
 
         [[params.projects.list]]
         title = "[Tic Tac Toe Neural Network](https://github.com/A3Ackerman/TicTacToeNeuralNet)"
-        #meta = "Side Project"
-        tagline = "In progress. A single layer neural network which will (hopefully) be able classify the winner of tick tac toe games, or that the game is drawn. Functional React JS GUI with calculations coded in Python with Numpy - Python at runtime within the users browser using Mozilla backed Pyodide (Python scientific stack compiled to WebAssembly)."
+        meta = "In Progress"
+        [[params.projects.list.items]]
+        details = "A single layer neural network that classifies complete tic tac toe games by winner/draw"
+        [[params.projects.list.items]]
+        details = "Functional React front-end, with all ML calculations coded in raw Python with Numpy"
+        [[params.projects.list.items]]
+        details = "Python code ran within the users browser using Mozilla backed Pyodide (Python compiled to WebAssembly) - no back-end required!"
+        
+        
         # [[params.projects.list]]
         # title = "[EcoReview Chrome Extension](https://github.com/A3Ackerman/EcoReviewPlugin)"
-        # meta = "Side Project"
-        # tagline = "A Google Chrome extension for crowdsourcing independent reviews of potentially “Greenwashed” products. The React front end utilizes the Google Chrome API to obtain access to variables in user's currently active tab. Backend consisted of a Python Flask webserver with MongoDB docker container."
+        # [[params.projects.list.items]]
+        # details = "A Google Chrome extension for crowdsourcing independent reviews of products that are marketed as being ecofriendly, but may not be in reality (aka \"greenwashing\")."
+        # [[params.projects.list.items]]
+        # details = "React front-end utilizes the Google Chrome API to obtain access to variables in user's currently active tab."
+        # [[params.projects.list.items]]
+        # details = "Backend consisted of a Python Flask webserver with MongoDB docker container."
 
         [[params.projects.list]]
-        title = "[Solar System Runtime Analysis](https://java-dragon-slaying.github.io/SolarSystemRuntimeAnalysis/)"
-        #meta = "Class Project"
-        tagline = "As my portion of a group project, I wrote a [Javac compiler plugin](https://github.com/Java-Dragon-Slaying/SolarSystemRuntimeAnalysis/blob/main/src/main/java/JavacPlugin.java) that generates and inserts new JCTree nodes into the Abstract Syntax Tree of the code being compiled, such that information about the runtime state is logged when the compiled program is executed."
-
- 
+        title = "[Java Dynamic Runtime Visualization](https://java-dragon-slaying.github.io/SolarSystemRuntimeAnalysis/)"
+        [[params.projects.list.items]]
+        details = "Developed a [Javac compiler plugin](https://github.com/Java-Dragon-Slaying/SolarSystemRuntimeAnalysis/blob/main/src/main/java/JavacPlugin.java) that modifies programs during the compilation process to log specific information we wish to visualize"
 
 
     [params.information]
