@@ -19,14 +19,13 @@ publishDir = "docs"
     [params.profile]
         enable = true
         name = "Alexander Ackerman"
-        tagline = "Entrepreneurial Software Engineer"
+        #tagline = "May 2021 Bachelor's of Computer Science Graduate"
         avatar = "headshot.png"
 
 
     [params.contact]
         enable = true
         location = "Vancouver, BC, Canada"
-        citizenship = "Dual Citizen Canada/USA"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -40,6 +39,14 @@ publishDir = "docs"
         icon = "fas fa-globe"
         url = "https://a3ventures.dev"
         text = "a3ventures.dev"
+        [[params.contact.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/a3ackerman"
+        text = "A3Ackerman"
+        [[params.contact.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/alexander-ackerman-8419464b"
+        text = "Alexander Ackerman"
 
 
     [params.skills]
@@ -83,11 +90,18 @@ publishDir = "docs"
 
         [[params.education.list]]
         degree = "Bachelor of Computer Science"
-        university = "University of British Columbia"
+        university = "University of British Columbia | 2018 - 2021"
         dates = "2018 - 2021"
+        [[params.education.list.items]]
+        details = "Graduating May 2021, GPA: A"
+        [[params.education.list.items]]
+        details = "Specialization: statistics and data analytics"
+        [[params.education.list.items]]
+        details = "Teaching Assistant: CPSC110, and BCS Tutor (hosted office hours for CPSC213 and CPSC221)"
+
         [[params.education.list]]
         degree = "BA Hons Economics & Finance"
-        university = "McGill University"
+        university = "McGill University | 2010 - 2014"
         dates = "2010 - 2014"
 
 
@@ -107,7 +121,7 @@ publishDir = "docs"
 
 
     [params.languages]
-        enable = true
+        enable = false
 
         [[params.languages.list]]
         name = "English"
@@ -134,32 +148,32 @@ publishDir = "docs"
         name = "Cooking"
         [[params.interests.list]]
         name = "Guitar & singing"
-        [[params.interests.list]]
-        name = "Travelling"
 
 
 
     [params.summary]
-        enable = true
-        text = 'I love studying complex systems and trying to understand how they work, be they markets, cloud native technologies, or weather systems (just for fun). I am currently seeking opportunties to learn and tackle fresh problems every day. Dual Canadian and US citizen with right to work in both countries.'
-    [params.experience]
+        enable = false
+        text = 'I love studying complex systems and trying to understand how they work, be they markets, cloud native technologies, or weather systems (just for fun). I am currently seeking opportunties to learn and tackle fresh problems.'
+        work_status = true
+
+[params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Co-Op Intern"
+        title = "Software Engineering Intern"
         dates = "2020"
-        company = "[Demonware](https://demonware.net/)"
+        company = "[Demonware (Activision Blizzard)](https://demonware.net/)"
         [[params.experience.list.items]]
         details = "Designed, built and deployed back-end Python micro-services to Kubernetes from end-to-end"
         [[params.experience.list.items]]
         details = "Gathered internal customer feedback and requirements to design new tools and features"
         [[params.experience.list.items]]
-        details = "Developed and released an upstream Helm chart for a sidecar monitoring service for use by internal customers"
+        details = "Developed and released an upstream Helm chart (a GoLang Template) for a sidecar monitoring service for use by internal customers"
         [[params.experience.list.items]]
-        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes to reliably and efficiently serve millions of concurrent users. Implemented in using Pandas, NumPy and PyRserve."
+        details = "Completed a data analytics project using Little's Law to estimate required deployment sizes to reliably and efficiently serve Call of Duty Warzone's 50 million+ players. Implemented in Python 2 using Pandas, NumPy and PyRserve."
 
         [[params.experience.list]]
-        title = "Team Lead"
+        title = "Lead SDR & Digital Marketing Specialist"
         dates = "2018 - 2019"
         company = "[Venzee](https://www.venzee.com/)"
         [[params.experience.list.items]]
@@ -167,16 +181,18 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Wrote Python scripts using BeautifulSoup used to collect, process, and score 50k leads leading to a measurable improvement in sales funnel metrics"
         [[params.experience.list.items]]
+        details = "Planned, researched, and executed a content marketing campaign, reporting the Director of Marketing/Growth Hacker"
+        [[params.experience.list.items]]
         details = "Participated in AGILE rituals and wrote user stories for developers based on customer feedback"
 
-        [[params.experience.list]]
-        title = "Founder"
-        dates = "2016 - Present"
-        company = "[A3 Ventures](https://a3ventures.dev/)"
-        [[params.experience.list.items]]
-        details = "A3 Ventures is my personal tradename/brand (my initials are AAA) under which I have done some consulting work for a few clients"
-        [[params.experience.list.items]]
-        details = "Services include investment research (loose focus on the life science industry) and building a B2B lead generation database for a small industrial business"
+        # [[params.experience.list]]
+        # title = "Founder"
+        # dates = "2016 - Present"
+        # company = "[A3 Ventures](https://a3ventures.dev/)"
+        # [[params.experience.list.items]]
+        # details = "A3 Ventures is my personal tradename/brand (my initials are AAA) under which I have done some consulting work for a few clients"
+        # [[params.experience.list.items]]
+        # details = "Services include investment research (loose focus on the life science industry) and building a B2B lead generation database for a small industrial business"
         
 
         [[params.experience.list]]
@@ -198,42 +214,34 @@ publishDir = "docs"
         enable = true
 
         [[params.projects.list]]
+        title = "[Tic Tac Toe Neural Network](https://github.com/A3Ackerman/TicTacToeNeuralNet)"
+        #meta = "Side Project"
+        tagline = "In progress. A single layer neural network which will (hopefully) be able classify the winner of tick tac toe games, or that the game is drawn. Functional React JS GUI with calculations coded in Python with Numpy - Python at runtime within the users browser using Mozilla backed Pyodide (Python scientific stack compiled to WebAssembly)."
+        # [[params.projects.list]]
+        # title = "[EcoReview Chrome Extension](https://github.com/A3Ackerman/EcoReviewPlugin)"
+        # meta = "Side Project"
+        # tagline = "A Google Chrome extension for crowdsourcing independent reviews of potentially “Greenwashed” products. The React front end utilizes the Google Chrome API to obtain access to variables in user's currently active tab. Backend consisted of a Python Flask webserver with MongoDB docker container."
+
+        [[params.projects.list]]
         title = "[Solar System Runtime Analysis](https://java-dragon-slaying.github.io/SolarSystemRuntimeAnalysis/)"
-        meta = "Class Project"
+        #meta = "Class Project"
         tagline = "As my portion of a group project, I wrote a [Javac compiler plugin](https://github.com/Java-Dragon-Slaying/SolarSystemRuntimeAnalysis/blob/main/src/main/java/JavacPlugin.java) that generates and inserts new JCTree nodes into the Abstract Syntax Tree of the code being compiled, such that information about the runtime state is logged when the compiled program is executed."
 
-        [[params.projects.list]]
-        title = "[EcoReview Chrome Extension](https://github.com/A3Ackerman/EcoReviewPlugin)"
-        meta = "Side Project"
-        tagline = "A React JS popup extension for crowdsourcing independent reviews of potentially “Greenwashed” products. Backend consisted of a Python Flask webserver with MongoDB docker container."
-
-        [[params.projects.list]]
-        title = "[Tic Tac Toe Neural Network](https://github.com/A3Ackerman/TicTacToeNeuralNet)"
-        meta = "Side Project"
-        tagline = "In progress. A simple neural network that can be trained and run in browser, which can identify the winner of a tick tac toe game, or that the game is drawn."
-
+ 
 
 
     [params.information]
         enable = false
 
         [[params.information.list]]
-        title = "Papers"
+        title = ""
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
+        details = ""
 
 
 
     [params.social]
-        enable = true
+        enable = false
 
         [[params.social.list]]
         icon = "fab fa-github-square"
@@ -245,8 +253,8 @@ publishDir = "docs"
         title = "Alexander Ackerman"
         #[[params.social.list]]
         #icon = "fab fa-twitter-square"
-        #url = "//twitter.com/username"
-        #title = "@username"
+        #url = "https://twitter.com/Alex77696777"
+        #title = "@Alex7769677"
 
 
 
