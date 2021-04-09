@@ -87,10 +87,11 @@ publishDir = "docs"
 
     [params.education]
         enable = true
+        newgrad = false
 
         [[params.education.list]]
         degree = "Bachelor of Computer Science"
-        university = "University of British Columbia" # | 2018 - 2021"
+        university = "University of British Columbia"
         dates = "2018 - 2021"
         gpa = "GPA: A"
         [[params.education.list.items]]

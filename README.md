@@ -2,7 +2,7 @@
 
 To render to PDF, preserving parsability use: 
 `prince http://localhost:1313 --page-size=A2 --page-margin=0 -o ~/desktop/AAckerman_resume.pdf`
-
+Make sure that the contacts partial has real HTML in it (Prince can't compute css as well as chrome does)
 
 ### Viewing
 
