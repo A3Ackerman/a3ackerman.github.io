@@ -100,10 +100,10 @@ publishDir = "docs"
         [[params.education.list.items]]
         details = "Teaching Assistant for Computer Science 100 and 200 level courses"
 
-        [[params.education.list]]
-        degree = "BA Honours Economics & Finance"
-        university = "McGill University" # | 2010 - 2014"
-        dates = "2010 - 2014"
+        # [[params.education.list]]
+        # degree = "BA Honours Economics & Finance"
+        # university = "McGill University" # | 2010 - 2014"
+        # dates = "2010 - 2014"
 
 
     [params.awards]
@@ -122,7 +122,7 @@ publishDir = "docs"
 
 
     [params.languages]
-        enable = false
+        enable = true
 
         [[params.languages.list]]
         name = "English"
@@ -198,18 +198,18 @@ publishDir = "docs"
         # details = "Services include investment research (loose focus on the life science industry) and building a B2B lead generation database for a small industrial business"
         
 
-        [[params.experience.list]]
-        title = "Project Director/Analyst"
-        dates = "2014 - 2017"
-        company = "[Focus Reports](https://www.linkedin.com/company/focusreports/about/)"
-        [[params.experience.list.items]]
-        details = "Wrote content for 10+ country specific editions of the [Healthcare & Life Science Review](https://pharmaboardroom.com/country-reports/), published on [PharmaBoardroom.com](https://pharmaboardroom.com/)"
-        [[params.experience.list.items]]
-        details = "Worked on and led small two and three person teams to conduct interviews and sell advertising"
-        [[params.experience.list.items]]
-        details = "Researched healthcare policies, biotech technology platforms, and pharma company business models in preparation for interviews with C-suite executives and to write published content"
-        [[params.experience.list.items]]
-        details = "Was responsible for revenue generation via advertising sales across the full sales funnel from lead generation via cold calls to closing. Best year was 2016 with over USD 500k in sales"
+        # [[params.experience.list]]
+        # title = "Project Director/Analyst"
+        # dates = "2014 - 2017"
+        # company = "[Focus Reports](https://www.linkedin.com/company/focusreports/about/)"
+        # [[params.experience.list.items]]
+        # details = "Wrote content for 10+ country specific editions of the [Healthcare & Life Science Review](https://pharmaboardroom.com/country-reports/), published on [PharmaBoardroom.com](https://pharmaboardroom.com/)"
+        # [[params.experience.list.items]]
+        # details = "Worked on and led small two and three person teams to conduct interviews and sell advertising"
+        # [[params.experience.list.items]]
+        # details = "Researched healthcare policies, biotech technology platforms, and pharma company business models in preparation for interviews with C-suite executives and to write published content"
+        # [[params.experience.list.items]]
+        # details = "Was responsible for revenue generation via advertising sales across the full sales funnel from lead generation via cold calls to closing. Best year was 2016 with over USD 500k in sales"
 
 
 
