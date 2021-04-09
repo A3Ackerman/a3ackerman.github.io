@@ -3,7 +3,7 @@
 baseURL = "https://a3ventures.dev/"
 languageCode = "en"
 title = "Alexander Ackerman Resume"
-theme = "DevResume"
+theme = "MyDevResume"
 googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
 
