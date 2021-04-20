@@ -55,7 +55,7 @@ publishDir = "docs"
         [[params.skills.list]]
         title = "Languages & Libraries"
         [[params.skills.list.items]]
-        details = "Python"
+        details = "Python w/ Flask, Tornado, Numpy, Pandas, Keras, Scikit-learn"
         [[params.skills.list.items]]
         details = "Typescript"
         [[params.skills.list.items]]
@@ -168,9 +168,9 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Completed a data analytics project using Little's Law to estimate required deployment sizes needed to serve Call of Duty Warzone's 50 million+ players. Estimates led to reducing CPU resource allocations, creating savings of approx $100k"
         [[params.experience.list.items]]
-        details = "Also worked with the monitoring stack, which monitored all Demonware services for proper functioning, and would Slack and/or page the right engineers if their service malfunctioned"
+        details = "Implemented multiple new features on the 'Monitoring Stack' - a distributed system of ~10 Python microservices built with Flask and Click - which monitored all the web services enabling Call of Duty multiplayer products and automatically alerts engineers and creats Jira tickets in response to any alerts/failures"
         [[params.experience.list.items]]
-        details = "Designed, built and deployed a back-end Python micro-services to Kubernetes from end-to-end which was used to test that new checks/alerts were configured correctly and properly routed by the monitoring stack"
+        details = "Designed, built, and deployed a Python webservice built using Tornado Web Server into production. This service performed end-to-end integration tests on the 'Monitoring Stack' by simulating failures/alerts to one part of the system and verifying other parts of the system took the correct automated actions within a time limit"
         [[params.experience.list.items]]
         details = "Developed and released an upstream Helm chart (a GoLang Template) which allowed internal customers to easily add a monitoring agent to their Kubernetes deployments, saving at least 2-3 hours of developer work for deploying any new service"
        
@@ -183,7 +183,7 @@ publishDir = "docs"
         [[params.experience.list.items]]
         details = "Led a team of 8 Sales Dev Reps, including supporting their sales training and skill development"
         [[params.experience.list.items]]
-        details = "Wrote Python scripts using BeautifulSoup used to collect, process, and score 50k leads leading to a 5% improvement in our demo-booking rate"
+        details = "Wrote Python scripts using BeautifulSoup and Pandas used to collect, process, and score 50k leads leading to a 5% improvement in our demo-booking rate"
         [[params.experience.list.items]]
         details = "Planned and executed several projects to clean and organize our sales and marketing data from Hubspot and other sources"
         [[params.experience.list.items]]
